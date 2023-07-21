@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build --openssl-legacy-provider",
+    "start": "next start --openssl-legacy-provider"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0",
